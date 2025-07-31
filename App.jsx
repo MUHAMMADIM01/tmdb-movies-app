@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 
-const API_KEY = "YOUR_TMDB_API_KEY"
+const API_KEY = "0894c4d1284104919aa59bd45c405b92"
 
 const App = () => {
   const [movies, setMovies] = useState([])
