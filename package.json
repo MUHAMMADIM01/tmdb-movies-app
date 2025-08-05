@@ -1,27 +1,6 @@
-{
-  "name": "tmdb-movies-app",
-  "version": "1.0.0",
-  "description": "A React app that fetches movies from the TMDB API and displays them using a reusable ListComponent.",
-  "main": "index.jsx",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
-  },
-  "keywords": [
-    "react",
-    "vite",
-    "tmdb",
-    "movie-app"
-  ],
-  "author": "MIMUHAMMADU",
-  "license": "MIT",
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@vitejs/plugin-react": "^4.0.0",
-    "vite": "^4.0.0"
-  }
+"homepage"
+"https://MIMUHAMMADIM01.github.io/tmdb-movies-app"
+"scripts": {
+  "predeploy": "npm run build",
+  "deploy": "gh-pages -d build"
 }
