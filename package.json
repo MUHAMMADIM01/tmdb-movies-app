@@ -1,5 +1,4 @@
-"homepage"
-"https://MIMUHAMMADIM01.github.io/tmdb-movies-app"
+"homepage": "https://muhammadim01.github.io/tmdb-movies-app",
 "scripts": {
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build"
