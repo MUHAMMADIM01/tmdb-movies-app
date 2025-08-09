@@ -4,7 +4,13 @@
   "description": "TMDB Movies App using React + Vite",
   "homepage": "https://MUHAMMADIM01.github.io/tmdb-movies-app",
   "scripts": {
-  "dev": "vite",
-  "build": "vite build",
-  "preview": "vite preview"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.0"
   }
+}
